@@ -1,0 +1,38 @@
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+
+# Django
+db.sqlite3
+/media/
+staticfiles/
+static/
+*.log
+
+# Environment & Secrets
+.env
+.env.*
+*.env
+secrets.json
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS & Windows
+.DS_Store
+Thumbs.db
+
+# Coverage / Testing
+.coverage
+htmlcov/
+.tox/
+pytest_cache/
