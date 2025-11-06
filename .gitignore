@@ -36,3 +36,6 @@ Thumbs.db
 htmlcov/
 .tox/
 pytest_cache/
+
+
+README.md
