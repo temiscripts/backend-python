@@ -13,6 +13,8 @@ class Command(BaseCommand):
     help = "Seed the database with sample Users, Conversations, and Messages."
 
     def add_arguments(self, parser):
+        parser.add_argument(
+            '--clear',action='store_true',help='Deletes all existing User, Conversation, and Message data before seeding.')
         parser.add_argument('--users', type=int, default=10, help='Number of users to create.')
         parser.add_argument('--conversations', type=int, default=15, help='Number of conversations to create.')
         parser.add_argument('--messages', type=int, default=5, help='Number of messages per conversation.')
